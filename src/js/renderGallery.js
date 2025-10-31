@@ -4,7 +4,6 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 
 let lightbox = null;
 
-// JS template function instead of Handlebars
 function cardTemplate({ webformatURL, largeImageURL, tags, likes, views, comments, downloads }) {
   return `
   <div class="photo-card">
