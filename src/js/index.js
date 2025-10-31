@@ -1,7 +1,7 @@
 
 import '../css/styles.css';
-import { fetchImages } from './fetchImages';
-import { renderGallery, clearGallery } from './renderGallery';
+import { fetchImages } from './fetchImages.js';
+import { renderGallery, clearGallery } from './renderGallery.js';
 import { alert, info, success } from '@pnotify/core';
 import '@pnotify/core/dist/PNotify.css';
 import '@pnotify/core/dist/BrightTheme.css';
